@@ -103,3 +103,15 @@ console.log(personInfo(person1));  // Expected output: "Name: John Doe, Age: 25,
 console.log(personInfo(person2));  // Expected output: "Name: Jane Doe, Age: 30, City: Los Angeles"
 
 // TODO: Now create a function of your own that uses object destructuring and write an example usage of the function.
+function albumInfo({name, genre, year}) {
+  return `Name: ${name} Artist: ${artist} Genre: ${genre} `;
+
+};
+const album1 = {
+  name: "Ritual de lo Habitual",
+  artist: "Jane's Addiction",
+  genre: "alternative rock",
+
+};
+
+console.log(album1);
